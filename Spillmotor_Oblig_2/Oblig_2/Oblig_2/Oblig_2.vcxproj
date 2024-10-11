@@ -129,13 +129,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Functions\Attack.cpp" />
+    <ClCompile Include="EntityData\Component.cpp" />
     <ClCompile Include="ECS.cpp" />
+    <ClCompile Include="EntityData\HealthComponent.cpp" />
+    <ClCompile Include="EntityData\MovementData.cpp" />
+    <ClCompile Include="EntityData\EntityID.cpp" />
+    <ClCompile Include="Functions\Movement.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Oblig_2.cpp" />
+    <ClCompile Include="EntityData\PositionData.cpp" />
+    <ClCompile Include="EntityData\RotationData.cpp" />
+    <ClCompile Include="Functions\Physics.cpp" />
+    <ClCompile Include="Functions\Update.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Functions\Attack.h" />
+    <ClInclude Include="EntityData\Component.h" />
     <ClInclude Include="ECS.h" />
+    <ClInclude Include="EntityData\HealthComponent.h" />
+    <ClInclude Include="EntityData\MovementData.h" />
+    <ClInclude Include="EntityData\EntityID.h" />
+    <ClInclude Include="Functions\Movement.h" />
     <ClInclude Include="Object.h" />
+    <ClInclude Include="EntityData\PositionData.h" />
+    <ClInclude Include="EntityData\RotationData.h" />
+    <ClInclude Include="Functions\Physics.h" />
+    <ClInclude Include="Functions\Update.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

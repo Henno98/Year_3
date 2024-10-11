@@ -1,0 +1,15 @@
+﻿  Attack.cpp
+  Component.cpp
+  ECS.cpp
+  HealthComponent.cpp
+  MovementData.cpp
+  EntityID.cpp
+  Movement.cpp
+  Object.cpp
+  Oblig_2.cpp
+  PositionData.cpp
+  RotationData.cpp
+  Physics.cpp
+  Update.cpp
+  Generating Code...
+  Oblig_2.vcxproj -> C:\Users\larss\Documents\Github repositories\Inventory\Year_3\Spillmotor_Oblig_2\Oblig_2\x64\Debug\Oblig_2.exe
