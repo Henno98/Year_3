@@ -2,10 +2,26 @@
 //
 
 #include <iostream>
+#include "Functions/Scene.h"
 
+Scene window;
 int main()
 {
+    window.Init(1000, 1000);
+
     std::cout << "Hello World!\n";
+
+    glEnable(GL_DEPTH_TEST);
+    glDepthFunc(GL_LESS);
+    while (!glfwWindowShouldClose(window.window))
+    {
+
+
+
+        window.Update();
+    }
+    window.End();
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

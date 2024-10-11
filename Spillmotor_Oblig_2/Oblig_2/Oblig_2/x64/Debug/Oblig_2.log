@@ -1,4 +1,6 @@
-﻿  Attack.cpp
+﻿  glm.cpp
+  DamageData.cpp
+  Attack.cpp
   Component.cpp
   ECS.cpp
   HealthComponent.cpp
@@ -6,10 +8,39 @@
   EntityID.cpp
   Movement.cpp
   Object.cpp
+  ObjectBinders.cpp
+C:\Users\larss\Documents\Github repositories\Inventory\Year_3\Spillmotor_Oblig_2\Oblig_2\Oblig_2\Shaders\ObjectBinders.cpp(20,63): warning C4244: 'argument': conversion from 'GLsizeiptr' to 'GLsizei', possible loss of data
   Oblig_2.cpp
   PositionData.cpp
   RotationData.cpp
   Physics.cpp
   Update.cpp
+  Scene.cpp
+  ShaderProgram.cpp
   Generating Code...
-  Oblig_2.vcxproj -> C:\Users\larss\Documents\Github repositories\Inventory\Year_3\Spillmotor_Oblig_2\Oblig_2\x64\Debug\Oblig_2.exe
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glBindBuffer
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glDeleteBuffers
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glGenBuffers
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glBufferData
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glEnableVertexAttribArray
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glVertexAttribPointer
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glBindVertexArray
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glDeleteVertexArrays
+ObjectBinders.obj : error LNK2001: unresolved external symbol glad_glGenVertexArrays
+Oblig_2.obj : error LNK2001: unresolved external symbol glad_glEnable
+Oblig_2.obj : error LNK2001: unresolved external symbol glad_glDepthFunc
+Scene.obj : error LNK2019: unresolved external symbol gladLoadGL referenced in function "public: void __cdecl Scene::Init(int,int)" (?Init@Scene@@QEAAXHH@Z)
+Scene.obj : error LNK2001: unresolved external symbol glad_glClear
+Scene.obj : error LNK2001: unresolved external symbol glad_glClearColor
+Scene.obj : error LNK2001: unresolved external symbol glad_glViewport
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glAttachShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glCompileShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glCreateProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glCreateShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glDeleteProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glDeleteShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glLinkProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glShaderSource
+ShaderProgram.obj : error LNK2001: unresolved external symbol glad_glUseProgram
+C:\Users\larss\Documents\Github repositories\Inventory\Year_3\Spillmotor_Oblig_2\Oblig_2\x64\Debug\Oblig_2.exe : fatal error LNK1120: 24 unresolved externals
